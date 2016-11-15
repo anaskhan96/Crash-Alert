@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.anask.myapplication.MainActivity" >
+    <item android:id="@+id/aboutM"
+        android:title="About"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/close"
+        android:title="Exit"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+</menu>
